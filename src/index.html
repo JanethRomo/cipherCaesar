@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Secret Words</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <div class="container-form"> 
+        <form>
+            <div>
+                <div>
+                        <h1>¡Secret Words!</h1>
+                </div>
+                <input type="text" id="inputName" placeholder="ingresa tu nombre" maxlength="30">
+            </div> 
+            <br>
+            <div>
+                <input type="password" id="inputPsw" placeholder="ingresa tu password">
+            </div>
+            <br>
+            <div>
+                <button type="button" id="Send" onclick="myFunction()">Send</button>
+            </div>
+        </form>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
