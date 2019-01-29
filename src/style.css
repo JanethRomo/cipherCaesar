@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+/*comenta*/
+#inputName,
+#inputPsw {
+width: 300px;
+height: 30px;
+}
+/*comenta*/
+.container-form {
+    margin-top: 300px;
+  /*  border: 1px solid blue;*/
+}
