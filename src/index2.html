@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>sws2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div class="homeContainer">
+    <button class="btn" onClick="home()"><i class="fa fa-home"></i>Home</button>
+    </div>
     <div>
         <h1>¡Instrucciones!</h1>
     </div>
@@ -26,9 +30,10 @@
     </div>
     <br>
     <div>
-            <button type="button" id=cifrar onclick=Cifrar()>Cifrar</button>
-            <button type="button" id=descifrar onclick=Descifrar()>Descifrar</button>
+            <button type="button" id=cifrar>Cifrar</button>
+            <button type="button" id=descifrar >Descifrar</button>
     </div>
-    <script src="main.js"></script>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

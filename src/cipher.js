@@ -1,4 +1,4 @@
 window.cipher = {
-encode:
+  //cipher (String,offset =2);
   //..
 };

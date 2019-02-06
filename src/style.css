@@ -1,19 +1,44 @@
 body {
-    text-align: center;
+text-align: center;
+
 }
 /*comenta*/
 #inputName,
 #inputPsw {
 width: 300px;
 height: 30px;
+
 }
 /*comenta*/
 .container-form {
     margin-top: 300px;
   /*  border: 1px solid blue;*/
 }
+
+#Send,
 #cifrar,
-#descifrar
-{
-display: inline;
+#descifrar {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 74, 186);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(153, 153, 153);
+}
+.homeContainer{
+  text-align: left;
+}
+.btn {
+  background-color: rgb(255, 150, 30);
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
 }
