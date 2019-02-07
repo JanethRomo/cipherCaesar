@@ -81,8 +81,11 @@ En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proces
 para definir el producto final a nivel de experiencia y de interfaz.
 
 * Quiénes son los principales usuarios de producto.
+Este producto va dirigido para aquellas personas que deseen cifrar o descifrar algun tipo de mensaje, ya sea para conversaciones en privado o textos de alta confidencialidad.
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Los usuarios van a poder crear su propio lenguaje para poder comunicarse y a su vez descifrar este mismo.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
+Soluciona sus problemas ya que ellos son responsables de crear su propio lenguahe de codigo secreto y a su vez codificar lo desde una palabra, una frase, o en terminos mayores un texto amplio, siempre con la opcion de poder cifrar o descifrar el mensaje.
 
 ### Interfaz de usuario (UI)
 
