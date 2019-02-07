@@ -48,9 +48,21 @@ function descifrarstring(palabraCifrada) {
     return palabraCifrada2;
 }
 console.log(descifrarstring(palabraCifrada));
-
-//<script>
-//function myFunction() {
-//  location.replace("https://www.w3schools.com")
-//}
-//</script>
+//
+function encode(){
+var string = document.getElementById("textoAcifrar").value;
+var offset = document.getElementById("offset").value;
+var resultado = window.cipher.encode(offset,string);
+document.getElementById("result").value=resultado;
+};
+var cif= document.getElementById("encode");
+cif.addEventListener("click",encode);
+//
+function decode(){
+    var string = document.getElementById("textoAcifrar").value;
+    var offset = document.getElementById("offset").value;
+    var resultado = window.cipher.decode(offset,string);
+    document.getElementById("result").value=resultado;
+    };
+    var cif= document.getElementById("decode");
+    cif.addEventListener("click",decode);

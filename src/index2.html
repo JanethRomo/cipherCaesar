@@ -20,18 +20,21 @@
             el numero de espacios para crear tu propio codigo secreto.
         </p>
         <div>
-            <textarea>
+            <textarea cols="2" rows="4" id="textoAcifrar">
             </textarea>
         </div>
         <br>
     </div>
     <div>
-        <input type="number" placeholder="Inserta el numero aqui">
+        <input type="number" id = offset placeholder="Inserta el numero aqui">
     </div>
     <br>
     <div>
-            <button type="button" id=cifrar>Cifrar</button>
-            <button type="button" id=descifrar >Descifrar</button>
+            <button type="button" id="encode" >Encode</button>
+            <button type="button" id="decode">Decode</button>
+    </div>
+    <div>
+        <textarea name="" id="result" cols="30" rows="10"></textarea>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

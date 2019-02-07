@@ -1,4 +1,5 @@
 window.cipher = {
+     // Funcion para cifrar
   encode:function (offset, string){    
     var palabraCifrada2 = '';
     for (var i = 0; i < string.length; i++) {
@@ -13,6 +14,7 @@ window.cipher = {
     }
    return palabraCifrada2;
   },
+   // Funcion para descifrar
   decode:function (offset, string){    
    var palabraCifrada2 = '';
    for (var i = 0; i < string.length; i++) {
@@ -27,10 +29,7 @@ window.cipher = {
    }
   return palabraCifrada2;
   }
-
-
-
 };
- // Funcion para descifrar
+
 
 
