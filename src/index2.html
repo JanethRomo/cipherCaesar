@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="homeContainer">
-    <button class="btn" onClick="home()"><i class="fa fa-home"></i>Home</button>
+    <button class="btn" id="regresar"><i class="fa fa-home"></i>Home</button>
     </div>
     <div>
         <h1>¡Instrucciones!</h1>
@@ -20,13 +20,13 @@
             el numero de espacios para crear tu propio codigo secreto.
         </p>
         <div>
-            <textarea cols="2" rows="4" id="textoAcifrar">
+            <textarea name="" cols="10" rows="2" id="textoAcifrar">
             </textarea>
         </div>
         <br>
     </div>
     <div>
-        <input type="number" id = offset placeholder="Inserta el numero aqui">
+        <input type="number" id = "offset" placeholder="Inserta el numero aqui">
     </div>
     <br>
     <div>
@@ -37,6 +37,6 @@
         <textarea name="" id="result" cols="30" rows="10"></textarea>
     </div>
     <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <script src="index2.js"></script>
 </body>
 </html>
