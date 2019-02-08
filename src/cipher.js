@@ -30,6 +30,3 @@ window.cipher = {
         return palabraCifrada2;
     }
 };
-
-
-
